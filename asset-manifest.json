@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Coinmarket-tracker/static/css/main.57fdbd35.chunk.css",
-    "main.js": "/Coinmarket-tracker/static/js/main.63263fd7.chunk.js",
-    "main.js.map": "/Coinmarket-tracker/static/js/main.63263fd7.chunk.js.map",
+    "main.js": "/Coinmarket-tracker/static/js/main.fe309a02.chunk.js",
+    "main.js.map": "/Coinmarket-tracker/static/js/main.fe309a02.chunk.js.map",
     "runtime-main.js": "/Coinmarket-tracker/static/js/runtime-main.c58e815c.js",
     "runtime-main.js.map": "/Coinmarket-tracker/static/js/runtime-main.c58e815c.js.map",
     "static/js/2.6d2c8fe9.chunk.js": "/Coinmarket-tracker/static/js/2.6d2c8fe9.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c58e815c.js",
     "static/js/2.6d2c8fe9.chunk.js",
     "static/css/main.57fdbd35.chunk.css",
-    "static/js/main.63263fd7.chunk.js"
+    "static/js/main.fe309a02.chunk.js"
   ]
 }
