@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Coinmarket-tracker/static/css/main.447c3594.chunk.css",
+    "main.css": "/Coinmarket-tracker/static/css/main.adcd5211.chunk.css",
     "main.js": "/Coinmarket-tracker/static/js/main.286d8c19.chunk.js",
     "main.js.map": "/Coinmarket-tracker/static/js/main.286d8c19.chunk.js.map",
     "runtime-main.js": "/Coinmarket-tracker/static/js/runtime-main.c58e815c.js",
@@ -8,13 +8,13 @@
     "static/js/2.6d2c8fe9.chunk.js": "/Coinmarket-tracker/static/js/2.6d2c8fe9.chunk.js",
     "static/js/2.6d2c8fe9.chunk.js.map": "/Coinmarket-tracker/static/js/2.6d2c8fe9.chunk.js.map",
     "index.html": "/Coinmarket-tracker/index.html",
-    "static/css/main.447c3594.chunk.css.map": "/Coinmarket-tracker/static/css/main.447c3594.chunk.css.map",
+    "static/css/main.adcd5211.chunk.css.map": "/Coinmarket-tracker/static/css/main.adcd5211.chunk.css.map",
     "static/js/2.6d2c8fe9.chunk.js.LICENSE.txt": "/Coinmarket-tracker/static/js/2.6d2c8fe9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c58e815c.js",
     "static/js/2.6d2c8fe9.chunk.js",
-    "static/css/main.447c3594.chunk.css",
+    "static/css/main.adcd5211.chunk.css",
     "static/js/main.286d8c19.chunk.js"
   ]
 }
