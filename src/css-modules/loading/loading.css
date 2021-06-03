@@ -1,0 +1,45 @@
+.box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.box span {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display: inline-block;
+    margin:0 0.5em;
+}
+
+.s1 {
+    background-color: #ffda79;
+    animation: s1 1.2s infinite;
+}
+
+.s2,
+.s3 {
+    background-color: rgb(47,47,47);
+    animation: s1 1.2s infinite;
+    animation-delay: 0.4s;
+}
+
+.s3 {
+    animation-delay: 0.8s;
+}
+
+@keyframes s1 {
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

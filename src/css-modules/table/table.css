@@ -1,0 +1,134 @@
+table {
+  width: 100%;
+  height: 92vh;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-collapse: collapse;
+  border-bottom: 1px solid #f7f7f7;
+  font: 500 16px Arial, Helvetica, sans-serif;
+}
+
+table tr {
+  width: 100%;
+}
+
+table th:first-child {
+  width: 30%;
+}
+
+table th {
+  width: calc(70% / 6);
+  color: #2f2f2f;
+  font: 600 17px Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #f7f7f7;
+  text-align: left;
+  padding: 1.5vw 1vw;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  table th {
+    font-size: 14px;
+  }
+}
+
+table th:hover {
+  color: #e9a400;
+}
+
+table td {
+  padding: .8vw 1vw;
+  border-bottom: 1px solid #f7f7f7;
+  position: relative;
+}
+
+table tr:hover {
+  background-color: #f7f7f7;
+}
+
+table img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+  table img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  table img {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+table .coin-name {
+  padding-left: 38px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 850px) {
+  table .coin-name {
+    padding-left: 25px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  table .coin-name {
+    padding-left: 13px;
+    line-height: 10px;
+  }
+}
+
+table .above {
+  color: green;
+}
+
+table .below {
+  color: red;
+}
+
+table .coin-symbol {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(47, 47, 47, 0.8);
+}
+
+@media only screen and (max-width: 850px) {
+  table .coin-symbol {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  table .coin-symbol {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  table {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  table {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .market-cap,
+  .supply {
+    display: none;
+  }
+}
+/*# sourceMappingURL=table.css.map */

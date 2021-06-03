@@ -1,0 +1,48 @@
+@import '../_config';
+$demo-blue: #005BA6;
+$demo-gray: #D6D6D6;
+$demo-placeholder: #C7C7C7;
+$demo-border: #E6E6E6;
+
+$border-width: 3px;
+
+
+.header {
+   border-bottom: 2px solid $gray-light;
+   height: 8vh;
+   position: relative;
+   width:100%;
+}
+select {
+    color:$gray-dark;
+    position: absolute;
+    right:2.5%;
+    top:20%;
+    border:none;
+    outline: none;
+    font: 500 16px $font;
+    cursor:pointer;
+    box-shadow: none;
+    @media only screen and(max-width: 850px) {
+        font-size:80%;
+     }
+     @media only screen and(max-width: 550px) {
+        font-size:60%;
+     }
+}
+select:hover {
+    color:$yellow;
+}
+
+
+select *{
+ background-color: $gray-light;
+ border:1px solid gray;
+}
+
+
+option {
+    color:$gray-dark;
+    font-weight: 500; 
+}
+

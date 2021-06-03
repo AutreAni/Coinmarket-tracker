@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Currency from './components/Currency';
+import MarketData from './components/MarketData';
 
 function App() {
+  // const fakeURl = `https://secret-ocean-49799.herokuapp.com/`;
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Currency />
+      <MarketData />
     </div>
   );
 }
